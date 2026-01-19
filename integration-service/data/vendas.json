@@ -1,0 +1,562 @@
+[
+  {
+    "sale_id": "V9001",
+    "client_id": "C1013",
+    "sale_date": "2024-01-01",
+    "amount": 20000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9002",
+    "client_id": "C1016",
+    "sale_date": "2024-02-09",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9003",
+    "client_id": "C1002",
+    "sale_date": "2024-03-21",
+    "amount": 5000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9004",
+    "client_id": "C1006",
+    "sale_date": "2024-01-15",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "cartao",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9005",
+    "client_id": "C1003",
+    "sale_date": "2024-06-21",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9006",
+    "client_id": "C1002",
+    "sale_date": "2024-06-07",
+    "amount": 5000,
+    "status": "cancelada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9007",
+    "client_id": "C1011",
+    "sale_date": "2024-03-02",
+    "amount": 12000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9008",
+    "client_id": "C1010",
+    "sale_date": "2024-04-27",
+    "amount": 12000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "cartao",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9009",
+    "client_id": "C1004",
+    "sale_date": "2024-01-19",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9010",
+    "client_id": "C1003",
+    "sale_date": "2024-03-03",
+    "amount": 12000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9011",
+    "client_id": "C1010",
+    "sale_date": "2024-06-05",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9012",
+    "client_id": "C1005",
+    "sale_date": "2024-03-08",
+    "amount": 5000,
+    "status": "cancelada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "cartao",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9013",
+    "client_id": "C1007",
+    "sale_date": "2024-03-28",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9014",
+    "client_id": "C1003",
+    "sale_date": "2024-06-11",
+    "amount": 20000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9015",
+    "client_id": "C1005",
+    "sale_date": "2024-06-12",
+    "amount": 12000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9016",
+    "client_id": "C1014",
+    "sale_date": "2024-05-23",
+    "amount": 5000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "cartao",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9017",
+    "client_id": "C1002",
+    "sale_date": "2024-04-04",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9018",
+    "client_id": "C1010",
+    "sale_date": "2024-04-03",
+    "amount": 5000,
+    "status": "cancelada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9019",
+    "client_id": "C1004",
+    "sale_date": "2024-03-31",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9020",
+    "client_id": "C1006",
+    "sale_date": "2024-04-15",
+    "amount": 5000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9021",
+    "client_id": "C1008",
+    "sale_date": "2024-03-09",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9022",
+    "client_id": "C1008",
+    "sale_date": "2024-02-21",
+    "amount": 20000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9023",
+    "client_id": "C1001",
+    "sale_date": "2024-06-17",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9024",
+    "client_id": "C1009",
+    "sale_date": "2024-03-30",
+    "amount": 45000,
+    "status": "cancelada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9025",
+    "client_id": "C1009",
+    "sale_date": "2024-02-15",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9026",
+    "client_id": "C1014",
+    "sale_date": "2024-03-29",
+    "amount": 12000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9027",
+    "client_id": "C1007",
+    "sale_date": "2024-03-06",
+    "amount": 5000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9028",
+    "client_id": "C1007",
+    "sale_date": "2024-04-03",
+    "amount": 20000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9029",
+    "client_id": "C1004",
+    "sale_date": "2024-03-17",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9030",
+    "client_id": "C1010",
+    "sale_date": "2024-05-21",
+    "amount": 8000,
+    "status": "cancelada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "boleto",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9031",
+    "client_id": "C1006",
+    "sale_date": "2024-06-06",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9032",
+    "client_id": "C1010",
+    "sale_date": "2024-03-14",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "boleto",
+      "installments": 6
+    },
+    "extra": {
+      "discount": 5,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9033",
+    "client_id": "C1015",
+    "sale_date": "2024-06-21",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 12
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9034",
+    "client_id": "C1010",
+    "sale_date": "2024-05-11",
+    "amount": 45000,
+    "status": "fechada",
+    "product": "Plano Enterprise",
+    "payment": {
+      "method": "cartao",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 10,
+      "notes": ""
+    }
+  },
+  {
+    "sale_id": "V9035",
+    "client_id": "C1010",
+    "sale_date": "2024-02-27",
+    "amount": 8000,
+    "status": "fechada",
+    "product": "Plano Pro",
+    "payment": {
+      "method": "cartao",
+      "installments": 1
+    },
+    "extra": {
+      "discount": 0,
+      "notes": ""
+    }
+  }
+]

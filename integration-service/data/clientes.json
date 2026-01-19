@@ -1,0 +1,274 @@
+[
+  {
+    "client_id": "C1001",
+    "email": "lead1@email.com",
+    "name": "Lead 1",
+    "converted_at": "2024-05-26",
+    "origin": {
+      "lead_id": "L001",
+      "channel": "Google Ads"
+    },
+    "status": "ativo",
+    "segment": "Enterprise",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1002",
+    "email": "lead2@email.com",
+    "name": "Lead 2",
+    "converted_at": "2024-05-01",
+    "origin": {
+      "lead_id": "L002",
+      "channel": "Instagram"
+    },
+    "status": "ativo",
+    "segment": "Enterprise",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1003",
+    "email": "lead4@email.com",
+    "name": "Lead 4",
+    "converted_at": "2024-01-25",
+    "origin": {
+      "lead_id": "L004",
+      "channel": "Google Ads"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Lucas",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1004",
+    "email": "lead9@email.com",
+    "name": "Lead 9",
+    "converted_at": "2024-04-20",
+    "origin": {
+      "lead_id": "L009",
+      "channel": "Indicação"
+    },
+    "status": "ativo",
+    "segment": "Enterprise",
+    "owner": {
+      "name": "Ana",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1005",
+    "email": "lead11@email.com",
+    "name": "Lead 11",
+    "converted_at": "2024-04-15",
+    "origin": {
+      "lead_id": "L011",
+      "channel": "Indicação"
+    },
+    "status": "inativo",
+    "segment": "Enterprise",
+    "owner": {
+      "name": "Lucas",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1006",
+    "email": "lead13@email.com",
+    "name": "Lead 13",
+    "converted_at": "2024-01-14",
+    "origin": {
+      "lead_id": "L013",
+      "channel": "Google Ads"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1007",
+    "email": "lead14@email.com",
+    "name": "Lead 14",
+    "converted_at": "2024-04-13",
+    "origin": {
+      "lead_id": null,
+      "channel": "Instagram"
+    },
+    "status": "ativo",
+    "segment": "Enterprise",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1008",
+    "email": "lead16@email.com",
+    "name": "Lead 16",
+    "converted_at": "2024-03-04",
+    "origin": {
+      "lead_id": "L016",
+      "channel": "LinkedIn"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1009",
+    "email": "lead23@email.com",
+    "name": "Lead 23",
+    "converted_at": "2024-05-17",
+    "origin": {
+      "lead_id": "L023",
+      "channel": "LinkedIn"
+    },
+    "status": "ativo",
+    "segment": "Enterprise",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1010",
+    "email": "lead27@email.com",
+    "name": "Lead 27",
+    "converted_at": "2024-04-18",
+    "origin": {
+      "lead_id": "L027",
+      "channel": "Indicação"
+    },
+    "status": "inativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Ana",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1011",
+    "email": "lead32@email.com",
+    "name": "Lead 32",
+    "converted_at": "2024-04-28",
+    "origin": {
+      "lead_id": "L032",
+      "channel": "LinkedIn"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1012",
+    "email": "lead33@email.com",
+    "name": "Lead 33",
+    "converted_at": "2024-04-23",
+    "origin": {
+      "lead_id": "L033",
+      "channel": "Instagram"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1013",
+    "email": "lead35@email.com",
+    "name": "Lead 35",
+    "converted_at": "2024-06-15",
+    "origin": {
+      "lead_id": "L035",
+      "channel": "Google Ads"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1014",
+    "email": "lead36@email.com",
+    "name": "Lead 36",
+    "converted_at": "2024-03-01",
+    "origin": {
+      "lead_id": null,
+      "channel": "Instagram"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Ana",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1015",
+    "email": "lead41@email.com",
+    "name": "Lead 41",
+    "converted_at": "2024-05-04",
+    "origin": {
+      "lead_id": "L041",
+      "channel": "Instagram"
+    },
+    "status": "inativo",
+    "segment": "Enterprise",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  },
+  {
+    "client_id": "C1016",
+    "email": "lead43@email.com",
+    "name": "Lead 43",
+    "converted_at": "2024-04-12",
+    "origin": {
+      "lead_id": "L043",
+      "channel": "Google Ads"
+    },
+    "status": "ativo",
+    "segment": "PME",
+    "owner": {
+      "name": "Pedro",
+      "team": "Comercial"
+    },
+    "internal_notes": "observação interna"
+  }
+]

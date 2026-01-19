@@ -1,0 +1,857 @@
+[
+  {
+    "lead_id": "L001",
+    "created_at": "2024-06-12",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 1",
+      "email": "lead1@email.com",
+      "phone": "119900001"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 65,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L002",
+    "created_at": "2024-03-03",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 2",
+      "email": "lead2@email.com",
+      "phone": "119900002"
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 43,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L003",
+    "created_at": "2024-06-22",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 3",
+      "email": "lead3@email.com",
+      "phone": "119900003"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 84,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L004",
+    "created_at": "2024-01-09",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 4",
+      "email": "lead4@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 59,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L005",
+    "created_at": "2024-05-09",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 5",
+      "email": "lead5@email.com",
+      "phone": "119900005"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 55,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L006",
+    "created_at": "2024-06-15",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 6",
+      "email": "lead6@email.com",
+      "phone": "119900006"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 87,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L007",
+    "created_at": "2024-05-30",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 7",
+      "email": "lead7@email.com",
+      "phone": "119900007"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 84,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L008",
+    "created_at": "2024-03-28",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 8",
+      "email": "lead8@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 73,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L009",
+    "created_at": "2024-01-27",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 9",
+      "email": "lead9@email.com",
+      "phone": "119900009"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 75,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L010",
+    "created_at": "2024-03-29",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 10",
+      "email": "duplicado@email.com",
+      "phone": "119900010"
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 88,
+      "duplicate": true,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L011",
+    "created_at": "2024-05-17",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 11",
+      "email": "lead11@email.com",
+      "phone": "119900011"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 67,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L012",
+    "created_at": "2024-06-09",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 12",
+      "email": "lead12@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 54,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L013",
+    "created_at": "2024-06-29",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 13",
+      "email": "lead13@email.com",
+      "phone": "119900013"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 59,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L014",
+    "created_at": "2024-03-15",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 14",
+      "email": "lead14@email.com",
+      "phone": "119900014"
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 78,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L015",
+    "created_at": "2024-03-12",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 15",
+      "email": "lead15@email.com",
+      "phone": "119900015"
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 77,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L016",
+    "created_at": "2024-03-31",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 16",
+      "email": "lead16@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 39,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L017",
+    "created_at": "2024-06-04",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 17",
+      "email": "lead17@email.com",
+      "phone": "119900017"
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 61,
+      "duplicate": false,
+      "test_flag": true
+    }
+  },
+  {
+    "lead_id": "L018",
+    "created_at": "2024-02-11",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 18",
+      "email": "lead18@email.com",
+      "phone": "119900018"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "b2b_q1"
+    },
+    "metadata": {
+      "score": 58,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L019",
+    "created_at": "2024-06-24",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 19",
+      "email": "lead19@email.com",
+      "phone": "119900019"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 34,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L020",
+    "created_at": "2024-03-21",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 20",
+      "email": "duplicado@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 57,
+      "duplicate": true,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L021",
+    "created_at": "2024-05-25",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 21",
+      "email": "lead21@email.com",
+      "phone": "119900021"
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 93,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L022",
+    "created_at": "2024-04-11",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 22",
+      "email": "lead22@email.com",
+      "phone": "119900022"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 63,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L023",
+    "created_at": "2024-02-05",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 23",
+      "email": "lead23@email.com",
+      "phone": "119900023"
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 84,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L024",
+    "created_at": "2024-05-29",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 24",
+      "email": "lead24@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 47,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L025",
+    "created_at": "2024-05-10",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 25",
+      "email": "lead25@email.com",
+      "phone": "119900025"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 44,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L026",
+    "created_at": "2024-02-09",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 26",
+      "email": "lead26@email.com",
+      "phone": "119900026"
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 84,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L027",
+    "created_at": "2024-06-01",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 27",
+      "email": "lead27@email.com",
+      "phone": "119900027"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "b2b_q1"
+    },
+    "metadata": {
+      "score": 89,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L028",
+    "created_at": "2024-05-15",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 28",
+      "email": "lead28@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 44,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L029",
+    "created_at": "2024-06-23",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 29",
+      "email": "lead29@email.com",
+      "phone": "119900029"
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 73,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L030",
+    "created_at": "2024-01-29",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 30",
+      "email": "duplicado@email.com",
+      "phone": "119900030"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 88,
+      "duplicate": true,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L031",
+    "created_at": "2024-01-01",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 31",
+      "email": "lead31@email.com",
+      "phone": "119900031"
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 52,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L032",
+    "created_at": "2024-05-09",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 32",
+      "email": "lead32@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 94,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L033",
+    "created_at": "2024-06-04",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 33",
+      "email": "lead33@email.com",
+      "phone": "119900033"
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "b2b_q1"
+    },
+    "metadata": {
+      "score": 50,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L034",
+    "created_at": "2024-05-18",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 34",
+      "email": "lead34@email.com",
+      "phone": "119900034"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 71,
+      "duplicate": false,
+      "test_flag": true
+    }
+  },
+  {
+    "lead_id": "L035",
+    "created_at": "2024-05-05",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 35",
+      "email": "lead35@email.com",
+      "phone": "119900035"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "b2b_q1"
+    },
+    "metadata": {
+      "score": 69,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L036",
+    "created_at": "2024-03-02",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 36",
+      "email": "lead36@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 40,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L037",
+    "created_at": "2024-01-22",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 37",
+      "email": "lead37@email.com",
+      "phone": "119900037"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 46,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L038",
+    "created_at": "2024-02-02",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 38",
+      "email": "lead38@email.com",
+      "phone": "119900038"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 51,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L039",
+    "created_at": "2024-03-08",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 39",
+      "email": "lead39@email.com",
+      "phone": "119900039"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 55,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L040",
+    "created_at": "2024-03-20",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 40",
+      "email": "duplicado@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "LinkedIn",
+      "utm_campaign": "b2b_q1"
+    },
+    "metadata": {
+      "score": 87,
+      "duplicate": true,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L041",
+    "created_at": "2024-01-31",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 41",
+      "email": "lead41@email.com",
+      "phone": "119900041"
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 73,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L042",
+    "created_at": "2024-01-06",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 42",
+      "email": "lead42@email.com",
+      "phone": "119900042"
+    },
+    "marketing": {
+      "channel": "Instagram",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 58,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L043",
+    "created_at": "2024-01-02",
+    "status": "convertido",
+    "contact": {
+      "name": "Lead 43",
+      "email": "lead43@email.com",
+      "phone": "119900043"
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 38,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L044",
+    "created_at": "2024-01-09",
+    "status": "em_aberto",
+    "contact": {
+      "name": "Lead 44",
+      "email": "lead44@email.com",
+      "phone": null
+    },
+    "marketing": {
+      "channel": "Google Ads",
+      "utm_campaign": "midyear"
+    },
+    "metadata": {
+      "score": 60,
+      "duplicate": false,
+      "test_flag": false
+    }
+  },
+  {
+    "lead_id": "L045",
+    "created_at": "2024-03-12",
+    "status": "descartado",
+    "contact": {
+      "name": "Lead 45",
+      "email": "lead45@email.com",
+      "phone": "119900045"
+    },
+    "marketing": {
+      "channel": "Indicação",
+      "utm_campaign": "verao_2024"
+    },
+    "metadata": {
+      "score": 46,
+      "duplicate": false,
+      "test_flag": false
+    }
+  }
+]

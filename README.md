@@ -33,9 +33,6 @@ API REST (Supabase)
 ↓
 Power BI (Dashboard)
 
-yaml
-Copiar código
-
 A arquitetura foi pensada para **desacoplar a visualização das fontes**, garantindo **governança**, **consistência** e **escalabilidade**.
 
 ---
@@ -52,8 +49,6 @@ A modelagem considera três entidades principais:
 
 Leads (1) → Clientes (N) → Vendas (N)
 
-yaml
-Copiar código
 
 Essa estrutura permite análises de **funil**, **conversão** e **receita ao longo do tempo**.
 
@@ -112,8 +107,73 @@ Foram utilizadas **medidas DAX apenas para análises complementares**, como cres
 - Screenshots do dashboard  
 - Documentação da arquitetura e decisões técnicas  
 
+## 🧠 Decisões Técnicas e Justificativas
+
+As tecnologias e abordagens adotadas neste projeto foram escolhidas com foco em **simplicidade, escalabilidade e aderência a cenários reais de Revenue Operations**.
+
+### JavaScript (Camada de Integração)
+O JavaScript foi utilizado na camada de integração por permitir:
+- Execução simples e portátil
+- Facilidade na manipulação de dados estruturados (JSON)
+- Implementação clara das regras de negócio
+- Separação de responsabilidades entre extração, transformação e carga
+
+Essa abordagem facilita a manutenção e a evolução do pipeline.
+
 ---
+
+### Supabase (PostgreSQL)
+O Supabase foi escolhido como camada de persistência por oferecer:
+- PostgreSQL gerenciado
+- Criação rápida de tabelas, views e índices
+- Exposição automática de APIs REST
+- Controle de acesso via Row Level Security (RLS)
+
+Isso permite desacoplar completamente o consumo analítico da lógica de ingestão.
+
+---
+
+### Views SQL para Camada Analítica
+As métricas principais foram implementadas diretamente no banco através de **views SQL**, garantindo:
+- Fonte única de verdade (Single Source of Truth)
+- Performance superior em consultas agregadas
+- Redução da complexidade no Power BI
+- Reutilização dos mesmos dados por diferentes consumidores
+
+Essa decisão segue boas práticas de Data Warehousing.
+
+---
+
+### API REST (Supabase)
+A utilização da API REST automática do Supabase permite:
+- Integração direta com ferramentas de BI
+- Eliminação de conectores proprietários
+- Facilidade de autenticação via headers
+- Possibilidade de expansão para outros consumidores (front-end, serviços, etc.)
+
+---
+
+### Power BI
+O Power BI foi adotado como camada de visualização por:
+- Forte capacidade analítica
+- Suporte nativo a APIs REST
+- Uso de DAX apenas para análises complementares
+- Separação clara entre dados, métricas e visualização
+
+A maior parte da lógica permanece no banco, garantindo consistência.
+
+---
+
+### Organização em Camadas
+A arquitetura foi estruturada em camadas bem definidas:
+- Integração
+- Persistência
+- Camada analítica
+- Visualização
+
+Essa separação facilita manutenção, testes e evolução da solução.
+
 
 ## 🧠 Considerações Finais
 
-O foco da solução foi entregar **dados confiáveis, consistentes e prontos para decisão**, simuland
+O foco da solução foi entregar **dados confiáveis, consistentes e prontos para decisão**, simulando um cenário real de **Revenue Operations**.
